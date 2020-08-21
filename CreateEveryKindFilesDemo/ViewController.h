@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestProtocolFile.h"
 
 @interface ViewController : UIViewController
 
+-(id)initWithProtocol:(id<TestProtocolFile>)delegate;
 
 @end
 

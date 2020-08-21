@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SecondViewController.h
 //  CreateEveryKindFilesDemo
 //
 //  Created by tpv tpv on 2019/10/29.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SecondViewController : UIViewController
 
 @end
-

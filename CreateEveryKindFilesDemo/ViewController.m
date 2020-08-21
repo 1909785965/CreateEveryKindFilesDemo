@@ -9,15 +9,32 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    __weak id<TestProtocolFile>_delegate;
+    
+}
 @end
 
 @implementation ViewController
 
+-(id)initWithProtocol:(id<TestProtocolFile>)delegate{
+    
+    if (self = [super init]) {
+        
+        _delegate = delegate;
+    }
+    
+    return self;
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [_delegate stormerOptionalProtocolMethod];
+    [_delegate stormerRequiredProtocolMethod];
 }
+
 
 
 - (void)didReceiveMemoryWarning {

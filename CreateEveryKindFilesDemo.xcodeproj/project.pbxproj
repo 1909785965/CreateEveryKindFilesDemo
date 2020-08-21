@@ -13,6 +13,7 @@
 		F5D5E95E2367E4B5002BDCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D5E95D2367E4B5002BDCBA /* Assets.xcassets */; };
 		F5D5E9612367E4B5002BDCBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D5E95F2367E4B5002BDCBA /* LaunchScreen.storyboard */; };
 		F5D5E9642367E4B5002BDCBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E9632367E4B5002BDCBA /* main.m */; };
+		F5D5E96D2367E9F3002BDCBA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5E96C2367E9F3002BDCBA /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		F5D5E9602367E4B5002BDCBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5D5E9622367E4B5002BDCBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5D5E9632367E4B5002BDCBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5D5E96A2367E50A002BDCBA /* TestProtocolFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolFile.h; sourceTree = "<group>"; };
+		F5D5E96B2367E9F3002BDCBA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F5D5E96C2367E9F3002BDCBA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 				F5D5E9552367E4A4002BDCBA /* AppDelegate.m */,
 				F5D5E9572367E4A4002BDCBA /* ViewController.h */,
 				F5D5E9582367E4A4002BDCBA /* ViewController.m */,
+				F5D5E96B2367E9F3002BDCBA /* SecondViewController.h */,
+				F5D5E96C2367E9F3002BDCBA /* SecondViewController.m */,
+				F5D5E96A2367E50A002BDCBA /* TestProtocolFile.h */,
 				F5D5E95A2367E4A4002BDCBA /* Main.storyboard */,
 				F5D5E95D2367E4B5002BDCBA /* Assets.xcassets */,
 				F5D5E95F2367E4B5002BDCBA /* LaunchScreen.storyboard */,
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D5E96D2367E9F3002BDCBA /* SecondViewController.m in Sources */,
 				F5D5E9592367E4A4002BDCBA /* ViewController.m in Sources */,
 				F5D5E9642367E4B5002BDCBA /* main.m in Sources */,
 				F5D5E9562367E4A4002BDCBA /* AppDelegate.m in Sources */,
